@@ -5,23 +5,24 @@ header:
   image: "/assets/images/containers.jpg"
   image_description: "containers"
 date:   2018-05-08 14:31:57 +0300
-toc: true
 category: Python
+toc: true
 tags: 
 - python 
 - docker
 - mysql
 - flask
 ---
-You have heard so much about docker and its advantages, and are now eager to use it with your new web app — but where do you start?
-In this tutorial we will go through an example of taking an existing simple web app based on Flask and MySQL and making it run with Docker and docker-compose. Code is available [here][dockerize-github].
-
+In this tutorial we will go through an example of taking an existing simple web app based on Flask and MySQL and making it run with Docker and docker-compose.
 
 It is considered a best practice for a container to have only one responsibility and one process, so for our app we will need at least two containers — one for running the app itself, and one for running the database. How do we coordinate these containers? This is where docker-compose comes in. From the [official docs][docker-docks]:
 >Compose is a tool for defining and running multi-container Docker applications. With Compose, you use a YAML file to configure your application’s services. Then, with a single command, you create and start all the services from your configuration.
 
 Let’s start!
 ------------
+All code used in this tutorial is available here:
+{% include repo_card.html reponame="docker-tutorial" %}
+
 If you don’t have them installed yet, install [Docker][docker-install] and [docker-compose][docker-compose-install].
 We begin with the following project layout:
 
@@ -160,7 +161,6 @@ We have learned how to dockerize a simple Flask-MySQL using docker-compose. Now 
 
 
 [docker-docks]:           https://docs.docker.com/compose/overview/
-[dockerize-github]:       https://github.com/stavshamir/docker-tutorial
 [docker-install]:         https://docs.docker.com/install/linux/docker-ce/ubuntu/
 [docker-compose-install]: https://docs.docker.com/compose/install/
 [mysql-docs]:             https://dev.mysql.com/doc/refman/5.7/en/connecting.html
