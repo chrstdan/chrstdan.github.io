@@ -9,7 +9,7 @@
 
 @import "github-repo-card";
 
-html {
+.page__content {
     font-size: 14px;
     
     @include breakpoint($medium) {
