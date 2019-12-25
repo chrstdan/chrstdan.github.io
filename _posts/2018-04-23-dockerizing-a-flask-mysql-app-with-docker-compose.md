@@ -4,9 +4,9 @@ title:  "Dockerizing a Flask-MySQL app with docker-compose"
 header:
   image: "/assets/images/containers.jpg"
   image_description: "containers"
-date:   2018-05-08 14:31:57 +0300
+date:   2018-04-23 14:31:57 +0300
 category: Python
-toc: true
+classes: wide
 tags: 
 - python 
 - docker
