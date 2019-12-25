@@ -58,6 +58,7 @@ class Track:
 {% endhighlight %}
 
 Now let’s say I am a user of this library, and I want to print the names of all tracks shorter than 10 minutes in Wish You Were Here (which I instantiated earlier):
+
 {:style="text-align:center"}
 ![untyped autocompletion]({{ site.url }}{{ site.baseurl }}/assets/images/the-other-benfit-of-python-type-annotations/untyped.png)
 
@@ -71,6 +72,7 @@ def all_tracks_shorter_than(self, minutes=0, seconds=0) -> List[Track]:
 {% endhighlight %}
 
 The return value of this method is a list of Tracks, so we add ‘-> List[Track]’ to its signature (more about the syntax of type annotations). Let’s see what happens now on typing ‘.’:
+
 {:style="text-align:center"}
 ![typed autocompletion]({{ site.url }}{{ site.baseurl }}/assets/images/the-other-benfit-of-python-type-annotations/typed.png)
 
