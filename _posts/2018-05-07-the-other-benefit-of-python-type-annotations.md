@@ -7,6 +7,7 @@ header:
   image_description: "python type annotations"
 classes: wide
 category: Python
+excerpt: Everyone writes about type safety. TL;DR Code completion is not less important.
 tags: 
 - python 
 ---
