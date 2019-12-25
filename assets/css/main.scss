@@ -8,3 +8,40 @@
 @import "minimal-mistakes"; // main partials
 
 @import "github-repo-card";
+
+html {
+    font-size: 14px;
+    
+    @include breakpoint($medium) {
+        font-size: 16px;
+    }
+
+    @include breakpoint($large) {
+        font-size: 18px;
+    }
+
+    @include breakpoint($x-large) {
+        font-size: 20px;
+    }
+}
+
+article {
+    font-size: 24px;
+}
+
+.archive__item {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 12px;
+    margin-bottom: 18px;
+    box-shadow: 4px 6px #cecece;
+}
+
+.archive__item-title {
+    margin-top: 14px;
+    margin-bottom: 14px;
+}
+
+.archive__item-excerpt {
+    margin-bottom: 0px;
+}
