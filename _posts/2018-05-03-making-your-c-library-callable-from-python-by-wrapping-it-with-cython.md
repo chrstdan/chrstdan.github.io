@@ -5,6 +5,7 @@ date:   2018-05-16 14:31:57 +0300
 category: Python
 header:
     image: /assets/images/cython-header.jpg
+    image_description: "cython"
 tags: 
 - python 
 - cython
