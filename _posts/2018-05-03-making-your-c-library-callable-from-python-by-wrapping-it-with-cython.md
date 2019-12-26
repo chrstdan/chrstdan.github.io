@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "Making your C library callable from Python by wrapping it with Cython"
-date:   2018-05-16 14:31:57 +0300
+date:   2018-05-03 14:31:57 +0300
 category: Python
 header:
     image: /assets/images/cython-header.jpg
