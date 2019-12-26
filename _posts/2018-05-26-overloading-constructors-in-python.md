@@ -32,15 +32,15 @@ As some would suggest, we could add an optional parameter (and give default argu
 {% highlight python %}
 class Book:
     def __init__(self, title: str = None, author: str = None , pages: int = None, book_as_json: str = None):
-    if book_as_json:
-    	book = json.loads(book_as_json)
-    	self.title = book['title']
-    	self.author = book['author']
-    	self.pages = book['pages']
-    else:
-        self.title = title
-        self.author = author
-        self.pages = pages
+        if book_as_json:
+            book = json.loads(book_as_json)
+            self.title = book['title']
+            self.author = book['author']
+            self.pages = book['pages']
+        else:
+            self.title = title
+            self.author = author
+            self.pages = pages
 {% endhighlight %}
 
 This is not a good solution for two reasons. The first is code duplication and extra branching, but perhaps more important is the introduction of default values which are not really needed as sort of a hack. book_as_json and the rest of the parameters are mutually exclusive, and we are at risk of instantiating an object with all None arguments. And what will happen if we will need another constructor? It will be even more complex! Yikes.
