@@ -25,7 +25,7 @@
         <a href="{{ post.url | relative_url }}" rel="permalink">{{ title }}</a>
       {% endif %}
     </h3>
-    {% if post.excerpt %}
+    {% if post.excerpt and include.type != "grid" %}
     <p class="archive__item-excerpt" itemprop="description">
       {{ post.excerpt | markdownify | strip_html | truncate: 160 }}
     </p>
