@@ -32,7 +32,6 @@ article {
 .archive__item {
     border: 1px solid rgb(110, 102, 102);
     border-radius: 5px;
-    padding: 12px;
     margin-bottom: 18px;
     box-shadow: 3px 4px 6px 1px #cecece;
 }
@@ -40,10 +39,16 @@ article {
 .archive__item-title {
     margin-top: 14px;
     margin-bottom: 14px;
+    margin-left: 12px;
 }
 
 .archive__item-excerpt {
-    margin-bottom: 0px;
+    margin: 14px;
+}
+
+.archive__item-teaser {
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
 }
 
 .page__date {
