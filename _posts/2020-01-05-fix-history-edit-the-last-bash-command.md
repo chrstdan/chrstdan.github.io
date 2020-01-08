@@ -7,7 +7,6 @@ header:
   image_description: "fix history: edit the last bash command"
 classes: wide
 category: Bash
-excerpt: TL;DR Edit previous bash commands with the "fc" and "^str1^str2" builtins.
 tags: 
 - productivity
 - vim
