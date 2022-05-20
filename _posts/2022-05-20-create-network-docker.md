@@ -5,7 +5,7 @@ header:
   image: "/assets/images/containers.jpg"
   image_description: "containers"
 date:   2022-05-20 11:08:45 +0300
-category: Python
+category: Docker
 classes: wide
 tags:  
 - docker
