@@ -1,12 +1,12 @@
 remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "dirt" #"air", "aqua", "contrast", "dark", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "dark" #"air", "aqua", "contrast", "dark", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
 title                    : "Daniel Pepuho"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Daniel Pepuho"
+name                     : ""
 description              : "Documentation"
 url                      : "https://chrstdan.github.io"
 baseurl                  : ""
