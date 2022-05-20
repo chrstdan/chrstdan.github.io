@@ -91,7 +91,7 @@ author:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: pepuhodaniel93@gmail.com
+      url: mailto:pepuhodaniel93@gmail.com
     - label: "LinkedIn"
       icon: "fab fa-linkedin"
       url: "https://www.linkedin.com/in/daniel-pepuho/"
@@ -104,7 +104,7 @@ footer:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: pepuhodaniel93@gmail.com
+      url: mailto:pepuhodaniel93@gmail.com
     - label: "LinkedIn"
       icon: "fab fa-linkedin"
       url: "https://www.linkedin.com/in/daniel-pepuho/"
