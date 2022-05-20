@@ -7,8 +7,7 @@ header:
 date:   2022-05-20 11:08:45 +0300
 category: Python
 classes: wide
-tags: 
-- python 
+tags:  
 - docker
 ---
 Now i will show you how to create and remove network on Docker, lets follow the instructions :)
