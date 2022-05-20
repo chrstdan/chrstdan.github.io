@@ -1,16 +1,16 @@
 remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "dirt" #"air", "aqua", "contrast", "dark", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Stav Shamir"
+title                    : "Daniel Pepuho"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Stav Shamir"
-description              : "Blog"
-url                      : "https://stavshamir.github.io"
+name                     : "Daniel Pepuho"
+description              : "Documentation"
+url                      : "https://chrstdan.github.io"
 baseurl                  : ""
-repository               : "stavshamir.github.io"
+repository               : "chrstdan.github.io"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
@@ -18,7 +18,7 @@ words_per_minute         : 200
 comments:
   provider               : "disqus"
   disqus:
-    shortname            : "stavshamir"
+    shortname            : "danielcristho"
 staticman:
   allowedFields          : # ['name', 'email', 'url', 'message']
   branch                 : # "master"
@@ -83,34 +83,34 @@ analytics:
 
 # Site Author
 author:
-  name             : "Stav Shamir"
-  avatar           : "/assets/images/bio-photo.jpeg"
-  bio              : "Software Developer"
-  location         : "Be'er Sheva, Israel"
+  name             : "Daniel Pepuho"
+  avatar           : "/assets/images/danielphoto.jpg"
+  bio              : "System Administrator"
+  location         : "Jayapura, Papua"
   email            :
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: mailto:shamir.stav@gmail.com
+      url: pepuhodaniel93@gmail.com
     - label: "LinkedIn"
       icon: "fab fa-linkedin"
-      url: "https://www.linkedin.com/in/stav-shamir-7ba648163/"
+      url: "https://www.linkedin.com/in/daniel-pepuho/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/stavshamir"
+      url: "https://github.com/danielcristho"
 
 # Site Footer
 footer:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: mailto:shamir.stav@gmail.com
+      url: pepuhodaniel93@gmail.com
     - label: "LinkedIn"
       icon: "fab fa-linkedin"
-      url: "https://www.linkedin.com/in/stav-shamir-7ba648163/"
+      url: "https://www.linkedin.com/in/daniel-pepuho/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/stavshamir"
+      url: "https://github.com/danielcristho"
 
 
 # Reading Files
