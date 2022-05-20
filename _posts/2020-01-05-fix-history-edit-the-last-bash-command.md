@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "Fix history: Edit the last bash command"
+title:  "Create and remove network on Docker "
 date:   2020-01-05
 header:
   image: "/assets/images/fix-history.jpg"
@@ -12,10 +12,6 @@ tags:
 - vim
 - bash
 ---
-
-How many times have you typed a long command and quickly pressed enter, only to find out that you misspelled something or missed an argument? 
-
-As a CLI user, you probably look to minimize the number of actions it takes to get a task done - so instead of rewriting the entire command (or arrowing up and changing the string), you can easily replace a string in your command with builtin bash tools.
 
 ## Event Designators: Quick Substitutions
 > An event designator is a reference to a command line entry in the history list. 
