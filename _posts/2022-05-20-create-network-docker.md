@@ -15,7 +15,7 @@ Now i will show you how to create and remove network on Docker, lets follow the 
 
 Let’s start!
 ------------
-If you don’t have that installed yet, install [Docker][docker-install]
+If you don’t have that installed yet, install [Docker](https://docs.docker.com/engine/install/ubuntu/)
 
 See the list
 ------------
@@ -82,6 +82,7 @@ $ docker network inspect demo
 
 {% endhighlight %}
 
+* *docker network inspect :* Returns information about one or more networks. By default, this command renders all results in a JSON object.
 
 
 [docker-docks]:           https://docs.docker.com/engine/reference/commandline/network/
