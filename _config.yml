@@ -106,7 +106,7 @@ footer:
       icon: "fas fa-fw fa-envelope-square"
       url: mailto:pepuhodaniel93@gmail.com
     - label: "Linkedin"
-      icon: "fab fa-linkedin"
+      icon: "fab fa-linkedIn"
       url: "https://www.linkedin.com/in/daniel-pepuho/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
