@@ -25,7 +25,6 @@ NETWORK ID     NAME                        DRIVER    SCOPE
 cd7ebce86a7a   bridge                      bridge    local
 7eb4ec22a7d5   flasknginx_default          bridge    local
 c60fcafb09d1   host                        host      local
-
 {% endhighlight %}
 
 * *docker network ls:* Lists all the networks the Engine daemon knows about. This includes the networks that span across multiple hosts in a cluster.
@@ -79,9 +78,12 @@ $ docker network inspect demo
     }
 ]
 
+
 {% endhighlight %}
 
 * *docker network inspect :* Returns information about one or more networks. By default, this command renders all results in a JSON object.
 
+More information 
+-----------------------------------
 
-[docker-docks]:           https://docs.docker.com/engine/reference/commandline/network/
+More information about Docker network can be found in [docker-docs](https://docs.docker.com/engine/reference/commandline/network/)
