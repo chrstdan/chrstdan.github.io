@@ -2,8 +2,8 @@
 layout: single
 title:  "Solve 'Auhentication Failed' in Paramiko"
 header:
-<!--   image: "/assets/images/paramiko-auth.png"
-  image_description: "Automation Script using Paramiko" -->
+image: "/assets/images/paramiko-auth.png"
+image_description: "Automation Script using Paramiko"
 date:   2022-06-09 18:11:25 +0300
 category: Python
 classes: wide
