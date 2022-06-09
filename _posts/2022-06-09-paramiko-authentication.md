@@ -1,21 +1,9 @@
----
-layout: single
-title:  "Solve 'Authentication Failed in Paramiko'"
-header:
-  image: "/assets/images/paramiko-auth.png"
-  image_description: "Paramiko script"
-date:   2022-05-22 13:38:45 +0300
-category: Python
-classes: wide
-tags:  
-- python
---- 
 layout: single
 title:  "Solve 'Auhentication Failed' in Paramiko"
 header:
-  image: "/assets/images/paramiko-auth.png"
-  image_description: "Automation Script using Paramiko"
-date:   2022-05-20 13:32:25 +0300
+<!--   image: "/assets/images/paramiko-auth.png"
+  image_description: "Automation Script using Paramiko" -->
+date:   2022-06-09 18:11:25 +0300
 category: Python
 classes: wide
 tags:  
