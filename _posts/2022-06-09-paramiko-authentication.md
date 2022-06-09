@@ -9,6 +9,7 @@ category: Python
 classes: wide
 tags:  
 - python
+- network-automation
 ---
 
 I got an error when running automation script for network device like this:
@@ -44,8 +45,8 @@ devices = [
     {
         'ip_address' : '172.16.1.1',
         'vendor' : 'mikrotik',
-        'username' : 'router1',
-        'password' : 'tes'
+        'username' : 'admin',
+        'password' : ''
     },
     {
         'ip_address' : '172.16.1.2',
@@ -66,13 +67,13 @@ for device in devices:
     print("success login to {}".format(device['ip_address']))
     if device['vendor'] == 'cisco':
         conn = ssh_client.invoke_shell()
-        # conn.send("enable\n")
+        conn.send("enable\n")
         conn.send("conf t\n")
         conn.send("int lo99\n")
         conn.send("ip add 10.1.99.1 255.255.255.255\n")
         time.sleep(2)
-        # output = conn.recv(65535)
-        # print(output.decode())
+        output = conn.recv(65535)
+        print(output.decode())
     else:
         ssh_client.exec_command('interface bridge add name=loopback3\n')
         ssh_client.exec_command('ip add add address=10.2.99.2/32 interface=loopback3')
