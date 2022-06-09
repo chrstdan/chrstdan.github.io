@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "Solve 'Authentication Failed in Paramiko' "
+title:  "Solve 'Authentication Failed in Paramiko'"
 header:
   image: "/assets/images/paramiko-auth.png"
   image_description: "Paramiko script"
@@ -48,7 +48,7 @@ So you will see my script like this
 -----------------------------------
   
 {% highlight python %}
- import paramiko
+import paramiko
 import time
 
 devices = [
@@ -97,4 +97,4 @@ ssh_client.close
 More information 
 -----------------------------------
 
-More information about Docker network can be found in [paramiko-docs](https://docs.paramiko.org/en/stable/api/client.html))
+More information about Paramiko can be found in [paramiko-docs](https://docs.paramiko.org/en/stable/api/client.html)
